@@ -11,8 +11,7 @@
 
 #include <openssl/ssl.h>
 
-#define SERVER_CERT_FILE    "../cert/server-cert.pem"
-#define SERVER_KEY_FILE     "../cert/server-key.pem"
+#define CA_CERT_FILE    "../cert/ca-cert.pem"
 
 int main(void){
     SSL_CTX* ctx = NULL;
